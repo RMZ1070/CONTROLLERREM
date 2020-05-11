@@ -18,3 +18,9 @@ Auth::routes();
 Route::get('/','WelcomeController@index')->name('welcome');
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/index','ToutController@index')->name('toutindex');
+
+Route::get('/edit','ToutController@edit')->name('toutedit');
+
+Route::get('/show','ToutController@show')->name('toutshow');

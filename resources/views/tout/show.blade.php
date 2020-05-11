@@ -1,0 +1,1 @@
+<h1>nom de la method du controller : show</h1>

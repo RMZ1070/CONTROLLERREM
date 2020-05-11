@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-
-
 class WelcomeController extends Controller
 {
     /**
@@ -14,7 +12,8 @@ class WelcomeController extends Controller
     public function index() 
     {
         $name = 'rmz';
-        return view('welcome',compact('name'));
+
+        return view('welcome',compact('name','Tout'));
     }
 
 }
